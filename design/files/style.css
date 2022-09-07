@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
 body {
     background-color: rgb(203, 203, 203);
 }
@@ -10,13 +14,33 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    -webkit-box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.2);
 }
 
 .card {
-    background-color: hsl(0, 0%, 94%);   
+    background-color: hsl(0, 0%, 94%);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 2%;
+}
+
+.perfume {
+    
+}
+
+h5 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+#price {
+    text-decoration: hsl(158, 36%, 37%)
 }
